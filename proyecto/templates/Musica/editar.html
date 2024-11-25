@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block titulo %} Editar Musica {% endblock %}
+
+{% block Contenido %} 
+
+<div class="card">
+    <div class="card-header">Editar artista</div>
+    <div class="card-body">
+        <h4 class="card-title">Editar artista</h4>
+        {% include 'Musica/form.html' %}
+
+    </div>
+    <div class="card-footer text-muted">Footer</div>
+</div> 
+
+{% endblock %}
